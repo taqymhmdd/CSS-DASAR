@@ -1,0 +1,18 @@
+h1 {
+    color:blue;
+    font-size: 12px;
+    font-family: arial;
+    text-align: right;
+}
+
+p {
+    background-color: greenyellow;
+    font-family: Arial;
+    font-style: italic;
+}
+    
+
+h2 {
+    font-family: arial;
+    text-align: right;
+}
