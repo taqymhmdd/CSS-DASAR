@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web Site Profil Siswa Kelas</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style type="text/css">
+  .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .header {
+            background-color: #ccc;
+            min-height: 50px;
+            text-align: center;
+        }
+        .menu ul {
+            padding: 0;
+        }
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+            z-index: 1; /* Add this line */
+        }
+        .menu ul li:hover ul.submenu {
+            display: block;
+            z-index: 2; /* Add this line */
+        }
+        .menu ul li a {
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        ul.submenu {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            display: none;
+        }
+        ul.submenu li {
+            display: block;
+        }
+        ul.submenu li a {
+            display: block;
+            padding: 5px 10px;
+        }
+        .jumbotron {
+            width: 100%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            background-color: #aaa;
+            background-image: url(/img/bi.avif);
+            background-size: cover;
+            position: relative;
+            font-family: 'Raleway', sans-serif;
+            width: 100%;
+        }
+        .jumbotron h2,.jumbotron p {
+            position: relative;
+        }
+        .footer {
+            background-color: #ccc;
+            min-height: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.4;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1></h1>
+            <div class="logo">
+                <img src="/img/logo smk mutuharjo.png" width="300">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">lain lain</a>
+                    <ul class="submenu">
+                        <li><a href="/keahlian.html">Keahlian</a></li>
+                        <li><a href="/temandekat.html">Teman Dekat</a></li>
+                        <li><a href="/cv taqy.pdf">Portofolio</a></li>
+                    </ul>
+                    <li><a href="/contact.html">contact</a></li>
+                </li>
+            </ul>
+        <div class="jumbotron">
+            <div class="overlay"></div>
+            <h2>Hallo Selamat Datang Di Website Saya</h2>
+            <p>website ini adalah project layouting pertama saya yang berisi daftar teman kelas dan profile saya</p>
+            <p>Setiap orang memiliki kelebihan dan kelemahan masing-masing.kita tidak bisa hebat dalam semua hal</p>
+            <p>awali dengan "LEARN" dan selanjutnya akhiri dengan buang huruf "L"</p>
+        </div>
+    </div>
+    <hr>
+    <h1>About Me</h1>
+    <p>Hi, Nama saya TAQY Saya sebagai Pelajar smk muhammadiyah 1 Sukoharjo saya belajar membuat Website</p>
+    <p>Saya belajar html di sekolah smk muhammadiyah 1 Sukoharjo</p>
+    <p>Saya suka membaca dan olahraga</p>
+    <hr>
+    <div class="footer">
+        <p>copyright 2024 SMK Muhammadiyah 1 Sukoharjo</p>
+    </div>
+</body>
+</html>
